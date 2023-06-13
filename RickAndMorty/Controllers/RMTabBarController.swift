@@ -27,7 +27,7 @@ final class RMTabBarController: UITabBarController {
     }
     
     private func makeNavController<T: UIViewController>(_ type: T.Type, title: String, imageName: String) -> UINavigationController {
-        let viewController = T()
+        let viewController = type.init()
         viewController.navigationItem.title = title
         viewController.view.backgroundColor = .systemBackground
         

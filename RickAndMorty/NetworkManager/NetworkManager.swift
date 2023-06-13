@@ -12,7 +12,7 @@ final class NetworkManager {
     
     private init() {}
     
-    public func execute(_ request: RMRequest, completion: @escaping () -> Void) {
+    public func execute<T: Decodable>(expecting type: T.Type, _ request: RMRequest, completion: @escaping (Result<T, Error>) -> Void) {
         
     }
 }
