@@ -22,6 +22,9 @@
 		2DB340BE2A38CB4900AE8FE4 /* RMRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB340BD2A38CB4900AE8FE4 /* RMRequest.swift */; };
 		2DB340C02A38CB6600AE8FE4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB340BF2A38CB6600AE8FE4 /* NetworkManager.swift */; };
 		2DB340C22A38CBB800AE8FE4 /* RMEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB340C12A38CBB800AE8FE4 /* RMEndpoint.swift */; };
+		2DB340C42A38CE7200AE8FE4 /* RMOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB340C32A38CE7200AE8FE4 /* RMOrigin.swift */; };
+		2DB340C62A38CF1600AE8FE4 /* RMStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB340C52A38CF1600AE8FE4 /* RMStatus.swift */; };
+		2DB340C82A38CF9000AE8FE4 /* RMGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB340C72A38CF9000AE8FE4 /* RMGender.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		2DB340BD2A38CB4900AE8FE4 /* RMRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMRequest.swift; sourceTree = "<group>"; };
 		2DB340BF2A38CB6600AE8FE4 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		2DB340C12A38CBB800AE8FE4 /* RMEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEndpoint.swift; sourceTree = "<group>"; };
+		2DB340C32A38CE7200AE8FE4 /* RMOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMOrigin.swift; sourceTree = "<group>"; };
+		2DB340C52A38CF1600AE8FE4 /* RMStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMStatus.swift; sourceTree = "<group>"; };
+		2DB340C72A38CF9000AE8FE4 /* RMGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGender.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				2DB340AA2A38C24400AE8FE4 /* RMLocation.swift */,
 				2DB340AC2A38C24F00AE8FE4 /* RMCharacter.swift */,
 				2DB340AE2A38C25700AE8FE4 /* RMEpisode.swift */,
+				2DB340C32A38CE7200AE8FE4 /* RMOrigin.swift */,
+				2DB340C52A38CF1600AE8FE4 /* RMStatus.swift */,
+				2DB340C72A38CF9000AE8FE4 /* RMGender.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -220,6 +229,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DB340C42A38CE7200AE8FE4 /* RMOrigin.swift in Sources */,
+				2DB340C62A38CF1600AE8FE4 /* RMStatus.swift in Sources */,
 				2DB340C02A38CB6600AE8FE4 /* NetworkManager.swift in Sources */,
 				2DB340AF2A38C25700AE8FE4 /* RMEpisode.swift in Sources */,
 				2DB340B52A38C2CA00AE8FE4 /* RMEpisodeController.swift in Sources */,
@@ -231,6 +242,7 @@
 				2DB340932A38C02E00AE8FE4 /* SceneDelegate.swift in Sources */,
 				2DB340C22A38CBB800AE8FE4 /* RMEndpoint.swift in Sources */,
 				2DB340AB2A38C24400AE8FE4 /* RMLocation.swift in Sources */,
+				2DB340C82A38CF9000AE8FE4 /* RMGender.swift in Sources */,
 				2DB340BE2A38CB4900AE8FE4 /* RMRequest.swift in Sources */,
 				2DB340AD2A38C24F00AE8FE4 /* RMCharacter.swift in Sources */,
 			);
