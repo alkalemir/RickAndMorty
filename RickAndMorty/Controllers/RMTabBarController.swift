@@ -12,8 +12,8 @@ final class RMTabBarController: UITabBarController {
     private let tabs: [(type: UIViewController.Type, title: String, imageName: String)] = [
         (RMCharacterController.self, "Characters", "person"),
         (RMLocationController.self, "Locations", "globe"),
-        (RMLocationController.self, "Episodes", "tv"),
-        (RMLocationController.self, "Settings", "gear")
+        (RMEpisodeController.self, "Episodes", "tv"),
+        (RMSettingsController.self, "Settings", "gear")
     ]
     
     override func viewDidLoad() {
