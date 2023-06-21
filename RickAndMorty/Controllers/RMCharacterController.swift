@@ -11,7 +11,14 @@ final class RMCharacterController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        NetworkManager.shared.execute(expecting: GetAllCharacters.self, .listCharacters) { result in
+            switch result {
+            case .success(let success):
+                print(success)
+            case .failure(let failure):
+                print(failure)
+            }
+        }
         // Do any additional setup after loading the view.
     }
     

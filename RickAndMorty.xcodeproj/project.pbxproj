@@ -25,6 +25,7 @@
 		2DB340C42A38CE7200AE8FE4 /* RMOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB340C32A38CE7200AE8FE4 /* RMOrigin.swift */; };
 		2DB340C62A38CF1600AE8FE4 /* RMStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB340C52A38CF1600AE8FE4 /* RMStatus.swift */; };
 		2DB340C82A38CF9000AE8FE4 /* RMGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB340C72A38CF9000AE8FE4 /* RMGender.swift */; };
+		2DF5D18A2A437F8200F3DA22 /* GetAllCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF5D1892A437F8200F3DA22 /* GetAllCharacters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		2DB340C32A38CE7200AE8FE4 /* RMOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMOrigin.swift; sourceTree = "<group>"; };
 		2DB340C52A38CF1600AE8FE4 /* RMStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMStatus.swift; sourceTree = "<group>"; };
 		2DB340C72A38CF9000AE8FE4 /* RMGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGender.swift; sourceTree = "<group>"; };
+		2DF5D1892A437F8200F3DA22 /* GetAllCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllCharacters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,11 +154,20 @@
 		2DB340BA2A38CB3500AE8FE4 /* NetworkManager */ = {
 			isa = PBXGroup;
 			children = (
+				2DF5D1882A437F7500F3DA22 /* ResponseModels */,
 				2DB340BF2A38CB6600AE8FE4 /* NetworkManager.swift */,
 				2DB340BD2A38CB4900AE8FE4 /* RMRequest.swift */,
 				2DB340C12A38CBB800AE8FE4 /* RMEndpoint.swift */,
 			);
 			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		2DF5D1882A437F7500F3DA22 /* ResponseModels */ = {
+			isa = PBXGroup;
+			children = (
+				2DF5D1892A437F8200F3DA22 /* GetAllCharacters.swift */,
+			);
+			path = ResponseModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +252,7 @@
 				2DB340912A38C02E00AE8FE4 /* AppDelegate.swift in Sources */,
 				2DB340932A38C02E00AE8FE4 /* SceneDelegate.swift in Sources */,
 				2DB340C22A38CBB800AE8FE4 /* RMEndpoint.swift in Sources */,
+				2DF5D18A2A437F8200F3DA22 /* GetAllCharacters.swift in Sources */,
 				2DB340AB2A38C24400AE8FE4 /* RMLocation.swift in Sources */,
 				2DB340C82A38CF9000AE8FE4 /* RMGender.swift in Sources */,
 				2DB340BE2A38CB4900AE8FE4 /* RMRequest.swift in Sources */,
